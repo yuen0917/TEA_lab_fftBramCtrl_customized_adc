@@ -26,7 +26,7 @@ module fftBramCtrl (
     // 256 bit fft * 8 channels = 2048
 
     reg [383:0] s_axis_tdata_reg;
-    reg         s_axis_tready_reg;
+    // reg         s_axis_tready_reg;
     reg         busy;
 
     assign s_axis_tready = ~busy;
