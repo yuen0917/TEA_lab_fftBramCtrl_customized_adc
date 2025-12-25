@@ -1,8 +1,8 @@
 `timescale 1ns / 1ps
 
 module fftBramCtrl (
-    input  wire clk,
-    input  wire rst_n,
+    input  wire         clk,
+    input  wire         rst_n,
 
     // AXI Stream Input (from FFT)
     input  wire [383:0] s_axis_tdata,

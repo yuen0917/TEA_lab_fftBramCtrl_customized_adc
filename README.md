@@ -1,6 +1,10 @@
-# FFT-BRAM-CTRL and CUSTOMIZED_ADC
+# FFT Related Modules
 
-這是一份用於將FFT的輸出數據寫入BRAM的控制器，以及一個用於讀取ADC數據的模塊
+這份檔案包含了一些用於FFT的相關模塊，包括
+
+- fft到bram的控制器
+- 用於測試的adc模塊
+- fft到Cordic的控制器
 
 ## FFT-BRAM-CTRL
 
@@ -28,3 +32,8 @@
 - bram_we: BRAM的write enable信號
 - bram_en: BRAM的enable信號
 - bram_rst: BRAM的重置信號
+
+### 版本
+
+- fftBramCtrl: v1.0
+- fftBramCtrl_v2: v2.0
